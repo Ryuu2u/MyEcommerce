@@ -1,6 +1,9 @@
 import React from 'react';
 
-const BeverageCard = ({ image, name, description, price, onOrder }) => (
+const BeverageCard = (props) => {
+    const { image, name, description, price, onOrder } = props;
+
+    return (
   <div className="border p-4 rounded shadow-md hover:shadow-lg transition-shadow duration-200">
     <img
       src={image}
@@ -19,5 +22,6 @@ const BeverageCard = ({ image, name, description, price, onOrder }) => (
     </button>
   </div>
 );
+}
 
 export default BeverageCard;
