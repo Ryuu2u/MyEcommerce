@@ -4,12 +4,10 @@ const Header = () => {
     return (
         <header className="bg-gradient-to-r from-gray-800 to-gray-900 text-white shadow-lg">
             <div className="container mx-auto px-6 py-4 flex items-center justify-between">
-                {/* โลโก้ / ชื่อเว็บ */}
                 <div className="flex items-center space-x-3">
                     <h1 className="text-2xl font-bold">TechHome</h1>
                 </div>
 
-                {/* เมนูนำทาง */}
                 <nav>
                     <ul className="flex space-x-6">
                         <li>
